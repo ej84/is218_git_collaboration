@@ -6,8 +6,10 @@ Repositories can have multiple collaborators and can be either public or private
 Changes made to this local copy can be pushed to the remote version.  
 3. Fork: A copy of another user's repository that lives on your account. This allows you to make changes
 without affecting the original upstream repository. Forks can also be kept up to date with the
-latest changes using a pull request.
-4. Branch  
+latest changes using a pull request.  
+4. Branch: A parallel version of a repository. A branch exists and can be modified without
+affecting or disrupting the main branch. Changes made in a branch can be merged back into
+the main branch.  
 5. Commit  
 6. Merge  
 7. Checkout  
