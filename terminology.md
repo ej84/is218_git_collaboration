@@ -14,7 +14,8 @@ the main branch.
 Git creates a unique ID (a.k.a. the "SHA" or "hash") that allows you to keep record of the 
 specific changes committed along with who made them and when. Commits usually contain a commit message 
 which is a brief description of what changes were made.  
-6. Merge  
+6. Merge: To take changes from one branch (in the same repository or from a fork), and apply them into another.
+Merges often occur as a 'pull request'. Merges can be done the command line or the GitHub website itself.  
 7. Checkout  
 8. Push  
 9. Pull  
