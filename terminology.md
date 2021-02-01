@@ -10,7 +10,10 @@ latest changes using a pull request.
 4. Branch: A parallel version of a repository. A branch exists and can be modified without
 affecting or disrupting the main branch. Changes made in a branch can be merged back into
 the main branch.  
-5. Commit  
+5. Commit: An individual change to a file (or set of files), also known as a 'revision'. When a commit is made, 
+Git creates a unique ID (a.k.a. the "SHA" or "hash") that allows you to keep record of the 
+specific changes committed along with who made them and when. Commits usually contain a commit message 
+which is a brief description of what changes were made.  
 6. Merge  
 7. Checkout  
 8. Push  
