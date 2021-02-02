@@ -67,6 +67,10 @@ li a:hover {
  <br>
  <p>When it is time to make a release, a <strong>release branch</strong> is created off of develop.</p>
  <br>
+ <p>The code in the release branch is deployed onto a suitable test environment, tested, and any problems are fixed directly in the release branch. This <strong>deploy -> test -> fix -> redeploy -> retest</strong> cycle continues until you’re happy that the release is good enough to release to customers.
+
+  When the release is finished, the release branch is merged into <strong>master</strong> and into <strong>develop</strong> too, to make sure that any changes made in the release branch aren’t accidentally lost by new development.</p>
+ <br>
 
 </body>
 </html>
