@@ -25,4 +25,4 @@ and updates the index and HEAD if the whole working tree is pointing to a new br
 can be considered 'updating' your local file.  
 10. Remote Add/Remove/Show  
 11. Status: Lists the files you have changed and those that you still need to add/or commit
-12. Master Branch  
+12. Master Branch: Created by the 'git init' command and is the default branch for a project.
