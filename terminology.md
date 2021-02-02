@@ -24,5 +24,5 @@ and updates the index and HEAD if the whole working tree is pointing to a new br
 9. Pull: To retrieve changes made to a remote file and apply them to your local copy,
 can be considered 'updating' your local file.  
 10. Remote Add/Remove/Show  
-11. Status  
+11. Status: Lists the files you have changed and those that you still need to add/or commit
 12. Master Branch  
