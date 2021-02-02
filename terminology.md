@@ -23,6 +23,7 @@ and updates the index and HEAD if the whole working tree is pointing to a new br
 8. Push: To send committed changes to a remote repository on GitHub.com.  
 9. Pull: To retrieve changes made to a remote file and apply them to your local copy,
 can be considered 'updating' your local file.  
-10. Remote Add/Remove/Show  
-11. Status: Lists the files you have changed and those that you still need to add/or commit
+10. Remote Add/Remove/Show: Used to manage repositories that are hosted on the Internet or
+another network.  
+11. Status: Lists the files you have changed and those that you still need to add/or commit  
 12. Master Branch: Created by the 'git init' command and is the default branch for a project.
