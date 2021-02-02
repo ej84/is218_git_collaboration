@@ -6,3 +6,5 @@
 # Changelog  
 ### 2/1/21: 5:25PM, Louis  
 - Added terminology page  
+### 2/1/21: 11:09PM, Richard
+- Updated GitFlow page and index page
