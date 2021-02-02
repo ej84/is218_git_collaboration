@@ -20,8 +20,9 @@ Merges often occur as a 'pull request'. Merges can be done the command line or t
 one, or to switch to a different version of a file from a different branch. Checkout also
 updates all or part of the working tree with a tree object or blob from the object database,
 and updates the index and HEAD if the whole working tree is pointing to a new branch.  
-8. Push  
-9. Pull  
+8. Push: To send committed changes to a remote repository on GitHub.com.  
+9. Pull: To retrieve changes made to a remote file and apply them to your local copy,
+can be considered 'updating' your local file.  
 10. Remote Add/Remove/Show  
 11. Status  
 12. Master Branch  
