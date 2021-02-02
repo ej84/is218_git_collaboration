@@ -14,10 +14,15 @@ the main branch.
 Git creates a unique ID (a.k.a. the "SHA" or "hash") that allows you to keep record of the 
 specific changes committed along with who made them and when. Commits usually contain a commit message 
 which is a brief description of what changes were made.  
-6. Merge  
-7. Checkout  
-8. Push  
-9. Pull  
+6. Merge: To take changes from one branch (in the same repository or from a fork), and apply them into another.
+Merges often occur as a 'pull request'. Merges can be done the command line or the GitHub website itself.  
+7. Checkout: Used to create a new branch, change your current working branch to a different
+one, or to switch to a different version of a file from a different branch. Checkout also
+updates all or part of the working tree with a tree object or blob from the object database,
+and updates the index and HEAD if the whole working tree is pointing to a new branch.  
+8. Push: To send committed changes to a remote repository on GitHub.com.  
+9. Pull: To retrieve changes made to a remote file and apply them to your local copy,
+can be considered 'updating' your local file.  
 10. Remote Add/Remove/Show  
 11. Status  
 12. Master Branch  
