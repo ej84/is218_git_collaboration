@@ -6,7 +6,7 @@
    body{background-color:lightblue;}
    h1{text-align:center;}
    h2{color:green;}
-   p{font-size:20px;text-align:left;}
+   p{text-size:20px;}
    ul {
   list-style-type: none;
   margin: 0;
@@ -59,11 +59,13 @@ li a:hover {
   GitFlow supports hotfix branches - branches made from a tagged release. You can use these to make an emergency change, safe in the knowledge that the hotfix will only contain your emergency fix. There’s no risk that you’ll accidentally merge in new development at the same time.</li>
 </ol>
  <br>
+ <br>
  <h2>How It Works?</h2>
  
  <p>New development (new features, non-emergency bug fixes) are built in <strong>feature branches</strong>.</p>
  <br>
  <p>Feature branches are branched off of the <strong>develop branch</strong>, and finished features and fixes are merged back into the <strong>develop branch</strong> when they’re ready for release.
+ <br>
  <br>
  <p>When it is time to make a release, a <strong>release branch</strong> is created off of develop.</p>
  <br>
@@ -71,7 +73,7 @@ li a:hover {
 
   When the release is finished, the release branch is merged into <strong>master</strong> and into <strong>develop</strong> too, to make sure that any changes made in the release branch aren’t accidentally lost by new development.</p>
  <br>
- <p>The master branch tracks released code only. The only commits to master are merges from release branches and <strong>hotfix branches</strong>. <strong>Hotfix branches</strong> are used to create emergency fixes.</p>
+ <p>The master branch tracks released code only. The only commits to master are merges from release branches and <strong>hotfix branches</strong>.<br><strong>Hotfix branches</strong> are used to create emergency fixes.</p>
  <br>
  <p>They are branched directly from a tagged release in the <strong>master branch</strong>, and when finished are merged back into both </strong>master</strong> and <strong>develop</strong> to make sure that the hotfix isn’t accidentally lost when the next regular release occurs.</p>
 
