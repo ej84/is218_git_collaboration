@@ -16,7 +16,10 @@ specific changes committed along with who made them and when. Commits usually co
 which is a brief description of what changes were made.  
 6. Merge: To take changes from one branch (in the same repository or from a fork), and apply them into another.
 Merges often occur as a 'pull request'. Merges can be done the command line or the GitHub website itself.  
-7. Checkout  
+7. Checkout: Used to create a new branch, change your current working branch to a different
+one, or to switch to a different version of a file from a different branch. Checkout also
+updates all or part of the working tree with a tree object or blob from the object database,
+and updates the index and HEAD if the whole working tree is pointing to a new branch.  
 8. Push  
 9. Pull  
 10. Remote Add/Remove/Show  
